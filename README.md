@@ -1,5 +1,7 @@
 # CW-Trainer
 
-This software was made to work with the Arduino Uno.
+My radio club Jeugland Radio club (ZR6JRC) decided to build a CW (Carrier Wave/Morse code) Trainer using the Arduino Uno and start learning how to transmit and decode Morse code. My father convinced me to try and code and create the trainer myself which I did. The design of the circuit has unfortunately been lost with time. The idea was an old PS2 keyboard would interface with the UNO and allow the user to type in messages which can decoded, create random messages which the user will have to decode and even decode incoming morse code. However, due to the complexity of project majority of those ideas were never reached however the trainer was able to at the time be used to produce a sound when clicking the morse key and was able to translate typed in messages into morse code.
 
-My Radio Club decided to build a CW (Morse code) Trainer, so we can pratice and start learning how to transmit Morse Code. My father convinced me to try and write my own software, so thats I did, the circuit is very similar to the original circuit but the software side is very different, one of the members of the club also suggested that I try and make this trainer be able to communicate to a Pixie radio which will then transmit the CW on the air. My plan was to type a message from a PS2 keyboard to the Uno which will then decode the message and send it to the Pixie using an Optocoupler.
+Unfortunately due to my lack of knowledge on the importance of documentation at the time I didnt save anything from the circuit design to majority of the code, the code uploaded here is what i believe to be the latest version of the code, which did contain some errors in it. 
+
+Majority of code was taken by various other similar projects and just manipulated to fit the use case of this project. 
